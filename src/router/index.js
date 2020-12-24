@@ -1,20 +1,67 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/Home.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import('../views/home')
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+    path: '/project',
+    name: 'project',
+    component: () => import('../views/project'),
+    children: [
+      {
+        path: '',
+        name: 'projectHome',
+        component: () => import('../views/project/home')
+      },
+      {
+        path: 'detail/:pid',
+        name: 'projectDetail',
+        meta: {
+          back: true,
+          title: '项目详情'
+        },
+        component: () => import('../views/project/detail')
+      },
+      {
+        path: 'detail/:pid/:vid',
+        name: 'versionDetail',
+        name: {
+          back: true,
+          title: '版本详情'
+        },
+        component: () => import('../views/version/detail')
+      },
+      {
+        path: 'create',
+        name: 'projectCreate',
+        meta: {
+          back: true,
+        },
+        component: () => import('../views/project/create')
+      }
+    ]
+  },
+  {
+    path: '/assets',
+    name: 'assets',
+    component: () => import('../views/home')
+  },
+  {
+    path: '/404',
+    name: '404',
+    meta: {
+      back: true,
+      title: '异次元'
+    },
+    component: () => import('../views/status/404')
+  },
+  {
+    path: '/:catchAll(.*)',
+    redirect: '/404'
+  },
 ]
 
 const router = createRouter({
