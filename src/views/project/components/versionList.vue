@@ -1,6 +1,8 @@
 <template>
   <div class="p-3">
-    <h2>版本总览</h2>
+    <h2>版本总览 
+      <router-link to="/project/detail/123/version/create"><svg-icon icon-class="add"></svg-icon></router-link>
+    </h2>
 
     <div class="version-list mt-2">
       <el-timeline>

@@ -7,7 +7,10 @@ import {
   ElInput,
   ElTimeline,
   ElTimelineItem,
-  ElTooltip
+  ElTooltip,
+  ElForm,
+  ElFormItem,
+  ElUpload
 } from 'element-plus'
 
 export default {
@@ -19,5 +22,8 @@ export default {
   ElInput,
   ElTimeline,
   ElTimelineItem,
-  ElTooltip
+  ElTooltip,
+  ElForm,
+  ElFormItem,
+  ElUpload
 }

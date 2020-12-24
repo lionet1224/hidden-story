@@ -53,6 +53,7 @@ export default {
 
 <style lang="scss" scope>
 .base{
+  flex-wrap: nowrap !important;
 
   .layout-nav{
     flex: 0 0 200px;
