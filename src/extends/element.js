@@ -10,7 +10,9 @@ import {
   ElTooltip,
   ElForm,
   ElFormItem,
-  ElUpload
+  ElUpload,
+  ElTable,
+  ElTableColumn
 } from 'element-plus'
 
 export default {
@@ -25,5 +27,7 @@ export default {
   ElTooltip,
   ElForm,
   ElFormItem,
-  ElUpload
+  ElUpload,
+  ElTable,
+  ElTableColumn
 }

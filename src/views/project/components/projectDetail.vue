@@ -2,8 +2,12 @@
   <div class="p-3">
     <div class="d-flex justify-content-between">
       <h2>第一届世界技能大赛网站设计与开发项目AB模块123123</h2>
-
-      <el-button class="ml-1">修改项目</el-button>
+      
+      <router-link to="/project/update/123">
+        <el-button class="ml-1">
+          修改资料
+        </el-button>
+      </router-link>
     </div>
     <p class="mt-1">
       <span class="text-secondary">项目发起者</span>
@@ -101,7 +105,7 @@
               <span class="text-secondary">32.3M</span>  
             </li>
           </ul>  
-        </div>        
+        </div>
       </el-col>
       <el-col :span="12">
         <div class="d-flex justify-content-between align-items-center">

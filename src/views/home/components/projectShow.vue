@@ -14,7 +14,7 @@
 
     <div class="project-items mt-1">
       <div class="item data-show">
-        <h3 class="text-hidden"><router-link to="/">第一届世界技能大赛网站设计与开发项目AB模块123123</router-link></h3>
+        <h3 class="text-hidden"><router-link to="/project/detail/123">第一届世界技能大赛网站设计与开发项目AB模块123123</router-link></h3>
         <p class="mt-1 text-secondary project-describe text-hidden-3">
           第一届比赛中的AB模块为游戏开发，A为上午部分的游戏界面开发，B为下午部分的游戏功能开发。
           第一届比赛中的AB模块为游戏开发，A为上午部分的游戏界面开发，B为下午部分的游戏功能开发。
@@ -26,7 +26,7 @@
         </p>
       </div>
       <div class="item data-show">
-        <h3 class="text-hidden"><router-link to="/">第一届世界技能大赛网站设计与开发项目AB模块123123</router-link></h3>
+        <h3 class="text-hidden"><router-link to="/project/detail/123">第一届世界技能大赛网站设计与开发项目AB模块123123</router-link></h3>
         <p class="mt-1 text-secondary project-describe text-hidden-3">
           第一届比赛中的AB模块为游戏开发，A为上午部分的游戏界面开发，B为下午部分的游戏功能开发。
           第一届比赛中的AB模块为游戏开发，A为上午部分的游戏界面开发，B为下午部分的游戏功能开发。
@@ -37,7 +37,7 @@
         </p>
       </div>
       <div class="item data-show">
-        <h3 class="text-hidden"><router-link to="/">第一届世界技能大赛网站设计与开发项目AB模块123123</router-link></h3>
+        <h3 class="text-hidden"><router-link to="/project/detail/123">第一届世界技能大赛网站设计与开发项目AB模块123123</router-link></h3>
         <p class="mt-1 text-secondary project-describe text-hidden-3">
           第一届比赛中的AB模块为游戏开发，A为上午部分的游戏界面开发，B为下午部分的游戏功能开发。
           第一届比赛中的AB模块为游戏开发，A为上午部分的游戏界面开发，B为下午部分的游戏功能开发。

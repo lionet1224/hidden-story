@@ -28,11 +28,20 @@ const routes = [
       {
         path: 'detail/:pid/:vid',
         name: 'versionDetail',
-        name: {
+        meta: {
           back: true,
           title: '版本详情'
         },
         component: () => import('../views/version/detail')
+      },
+      {
+        path: 'update/:pid',
+        name: 'projectUpdate',
+        meta: {
+          back: true,
+          title: '项目修改'
+        },
+        component: () => import('../views/project/update')
       },
       {
         path: 'create',
@@ -47,7 +56,7 @@ const routes = [
   {
     path: '/assets',
     name: 'assets',
-    component: () => import('../views/home')
+    component: () => import('../views/assets')
   },
   {
     path: '/404',

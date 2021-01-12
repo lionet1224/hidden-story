@@ -8,7 +8,7 @@
 
       <div class="nav">
         <ul>
-          <li v-if="$route.meta.title"><router-link :to='$route.href'><svg-icon icon-class="box"></svg-icon> {{ $route.meta.title }}</router-link></li>
+          <li v-if="$route.meta.title"><router-link :to='$route.fullPath'><svg-icon icon-class="box"></svg-icon> {{ $route.meta.title }}</router-link></li>
           <li><router-link to='/'><svg-icon icon-class="dashboard"></svg-icon> 仪表盘</router-link></li>
           <li><router-link to='/project'><svg-icon icon-class="project"></svg-icon> 项目</router-link></li>
           <li><router-link to='/project/create'><svg-icon icon-class="add"></svg-icon> 创建项目</router-link></li>
