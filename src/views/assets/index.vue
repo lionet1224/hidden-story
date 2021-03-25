@@ -1,7 +1,9 @@
 <template>
   <layout-base>
     <div class="p-3">
-      <h2>资源管理</h2>
+      <h2>资源管理
+        <a href="#" @click.stop.prevent="create"><svg-icon icon-class="add"></svg-icon></a>
+      </h2>
 
       <div class="mt-1">
         <el-table
@@ -84,6 +86,9 @@ export default {
     },
     handleDelete(index, row) {
       console.log(index, row);
+    },
+    create(){
+      this.$alert('可爱的我', '对吗')
     }
   }
 }

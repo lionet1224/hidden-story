@@ -35,6 +35,14 @@ const routes = [
         component: () => import('../views/version/detail')
       },
       {
+        path: 'version/create/:pid',
+        name: 'versionCreate',
+        meta: {
+          back: true,
+        },
+        component: () => import('../views/version/create')
+      },
+      {
         path: 'update/:pid',
         name: 'projectUpdate',
         meta: {

@@ -12,7 +12,8 @@ import {
   ElFormItem,
   ElUpload,
   ElTable,
-  ElTableColumn
+  ElTableColumn,
+  ElAlert
 } from 'element-plus'
 
 export default {
@@ -29,5 +30,6 @@ export default {
   ElFormItem,
   ElUpload,
   ElTable,
-  ElTableColumn
+  ElTableColumn,
+  ElAlert
 }
